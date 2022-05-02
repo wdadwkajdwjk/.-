@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+#nav{
+    font-family: 'Lato', sans-serif;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+#navigation{
+    font-family: 'PT Sans Narrow', sans-serif;
+    float:left;
+    line-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#navigation1 li{
+    font-family: 'PT Sans Narrow', sans-serif;
+    float:left;
+    line-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#navigation li {
+    list-style-type: none;
+    height: 40px;
+    margin-right: 50px;
+    line-height: 40px;
+    padding: 5px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    display: inline;
+    float: left;
+    transition: .5s;
+
+  }
+  #con{
+      height: 700px;
+      text-align: center;
+      width: 70%;
+      background-color: #262626;
+      border: 5px solid #111;
+      margin: 50px auto;
+  }
+
+a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    border:0;
+}
+iframe video{
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (max-width: 1850px) {
+    #con{
+        width: 95%;
+    }
+    #film{
+        width: calc(100% - 100px);
+    }
+    #chat{
+        width: 300px !important;
+    }
+}
+@media only screen and (max-width: 1260px) {
+    .menu_content{
+        display: none;
+        font-size: 20px;
+    }
+    #navigation li {
+        width: 50px;
+    }
+    #film,#chat{
+        clear: both;
+    }
+    #film{
+        width: 100% !important;
+        height: 400px !important;
+    }
+    #chat{
+        width: 100% !important;
+        margin: auto;
+        height: 500px !important;
+    }
+    #con{
+        height: 900px;
+    }
+}
+#film,#chat{
+    float:left;
+    color:#fff;
+}
+#film{
+    height: 100%;
+    width: calc(100% - 300px);
+    background-color: #000;
+}
+#chat{
+    height: 100%;
+    width: 300px;
+    background-color: #000;
+}
+#footer{
+    font-family: 'PT Sans Narrow', sans-serif;
+    height: 50px;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #aaa; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #333; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
