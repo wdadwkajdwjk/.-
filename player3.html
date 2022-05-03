@@ -1,15 +1,15 @@
-<style>body{background:black;margin:0;padding:0;}</style>
-<body oncontextmenu="return false;">
-<link href="https://vjs.zencdn.net/7.14.3/video-js.css" rel="stylesheet" />
-<script src="https://vjs.zencdn.net/7.14.3/video.min.js"></script>
-<script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-<video
-    id="my-video"
-    class="video-js"
-    controls
-    preload="auto"
-    width="1030"
-    height="700"
-    poster=""
-    data-setup="{}">
-<source src="https://stream.4fun.tv:8888/hls/4f_high/index.m3u8" type="application/x-mpegURL"></video>
+<link rel="stylesheet" href="https://strims.top/layout/style.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js"></script>
+<div id="player"></div>
+<script>var player = new Clappr.Player({
+source: "https://stream.4fun.tv:8888/hls/4f_high/index.m3u8",
+plugins: {'core': [LevelSelector]},parentId: "#player",
+width: "100%",height: "100%",
+autoPlay: true,
+mute: false,
+mediacontrol: {seekbar: "white", buttons: "white"}});
+setTimeout(function()
+{$('.media-control-left-panel')['append']
+('<button type="button" class="media-control-button media-control-icon enabled"><a href="https://piratestream.ml" target="_blank"><img src="https://piratestream.ml/logo.png" width="130px" height="35px"></a></button>')}, 1000)
+</script>
