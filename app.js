@@ -23,13 +23,13 @@ window.addEventListener('load', ChangeFile1);
 file1.addEventListener('click', ChangeFile1);
 
 const ChangeFile2 = () => {
-    srcUrl = 'https://www.youtube.com/embed/tGplvNI90DE';
+    srcUrl = 'https://piratestream.ml/player2.html';
     iframe1.src=srcUrl;
 }
 file2.addEventListener('click', ChangeFile2);
 
 const ChangeFile3 = () => {
-    srcUrl = 'https://www.youtube.com/embed/5souw4K5UQc?list=RD5souw4K5UQc';
+    srcUrl = 'https://piratestream.ml/player3.html;
     iframe1.src=srcUrl;
 }
 file3.addEventListener('click', ChangeFile3);
