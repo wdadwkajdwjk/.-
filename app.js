@@ -29,7 +29,7 @@ const ChangeFile2 = () => {
 file2.addEventListener('click', ChangeFile2);
 
 const ChangeFile3 = () => {
-    srcUrl = 'https://piratestream.ml/player3.html;
+    srcUrl = 'https://piratestream.ml/player3.html';
     iframe1.src=srcUrl;
 }
 file3.addEventListener('click', ChangeFile3);
