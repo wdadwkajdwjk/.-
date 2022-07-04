@@ -1,0 +1,42 @@
+html {
+height: 100%;
+}
+body{
+font-family: 'Lato', sans-serif;
+color: #666;
+margin: 0;
+}
+#main{
+width: 90%;
+text-align: center;
+position: fixed;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.logo{
+vertical-align: middle;
+}
+.logo img {
+vertical-align: middle;
+height: 180px;
+}
+.logo h1{
+text-align: left;
+vertical-align: middle;
+font-weight: bold;
+font-size: 72px;
+display: inline-block;
+padding: 0;
+margin: 0;
+line-height: 80%;
+}
+.info{
+margin: 50px 0;
+vertical-align: middle;
+}
+.info p{
+margin: 0;
+padding: 8px 0;
+font-size: 48px;
+}
